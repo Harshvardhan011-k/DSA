@@ -1,0 +1,124 @@
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+  
+    background-size: 600% 600%; 
+    text-decoration-color: azure;
+    background-color: #030a06;
+}
+
+header {
+   
+    background-size: 600% 600%; 
+    text-decoration-color: #3399ff;
+}
+
+header {
+    background-color: #066203;
+    color: #045924;
+    padding: 20px;
+    text-align: center;
+}
+.header-image img {
+
+    position: absolute;
+    height: 113px;
+    left: 0px;
+    width: 150px;
+    margin-top: 0%;
+    margin-left: 0%;
+    top: 0px;
+}
+
+
+
+@font-face {
+    font-family: 'RockFont';
+    src: url('Arial.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+header h1 {
+    font-family: 'RockFont', Arial, sans-serif;
+    font-size: 48px;
+    margin: 0;
+    padding: 0;
+   color:rgb(245, 244, 244);
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+ nav a {
+    text-decoration: none;
+    color: #e9e9e9;
+    font-weight: bold;
+    width: 100px;
+
+}
+nav a:hover {
+    color: #ff9900;
+}
+ 
+.algo-block{
+    display: inline-block;
+    text-align: center;
+    padding: 50px;
+    border: 15px solid #083379;
+    margin: 10px;
+    width: calc(40% - 40px); 
+    vertical-align: middle; 
+
+}
+.algo-block:hover {
+    transform: scale(1.05);
+}
+.algo-block a {
+    text-decoration: none;
+    color: #e9e9e9;
+    font-weight: bold;
+    width: 100px;
+
+}
+.algo-block a:hover {
+    color: #ff9900;
+}
+.algo-block h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #fbfbfb;
+}
+.algo-block h2:hover{
+    color: #ff9900;
+}
+footer {
+    background-color: green;
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer a {
+    color: black;
+}
+
+.large-text{
+    font-size: 50px;
+}
