@@ -1,11 +1,11 @@
 body {
     font-family: 'Arial', sans-serif;
-    background-image: url('background.jpg'); /* Replace with your background image URL */
-    background-size: cover; /* Cover the entire page */
-    background-position: center; /* Center the background image */
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center; 
     margin: 0;
     padding: 0;
-    color: #333; /* Default text color for better readability */
+    color: #333; 
 }
 
 body {
